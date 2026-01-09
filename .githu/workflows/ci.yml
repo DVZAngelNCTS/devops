@@ -28,3 +28,4 @@ jobs:
 
     - name: Run tests
       run: php -d error_reporting=E_ALL^E_DEPRECATED vendor/bin/phpunit --testdox || true
+      
